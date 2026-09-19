@@ -1,0 +1,364 @@
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+	<Listbox item = "Vault_List">
+		<ScreenID>VaultList</ScreenID>
+		<Font>3</Font>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>50</TopAnchorOffset>
+		<RightAnchorOffset>10</RightAnchorOffset>
+		<BottomAnchorOffset>50</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Style_VScroll>true</Style_VScroll>
+		<Style_Border>true</Style_Border>
+		<Style_Transparent>true</Style_Transparent>
+		<Columns>
+			<Width>24</Width>
+			<Heading>Icon</Heading>
+		</Columns>
+		<Columns>
+			<Width>36</Width>
+			<Heading>Slot</Heading>
+		</Columns>
+		<Columns>
+			<Width>330</Width>
+			<Heading>Item Name</Heading>
+		</Columns>
+		<Columns>
+			<Width>80</Width>
+			<Heading>Qty / Info</Heading>
+		</Columns>
+	</Listbox>
+
+	<Button item = "Vault_DepositButton">
+		<ScreenID>DepositButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>40</TopAnchorOffset>
+		<RightAnchorOffset>320</RightAnchorOffset>
+		<BottomAnchorOffset>10</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Deposit Cursor</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_WithdrawButton">
+		<ScreenID>WithdrawButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>350</LeftAnchorOffset>
+		<TopAnchorOffset>40</TopAnchorOffset>
+		<RightAnchorOffset>660</RightAnchorOffset>
+		<BottomAnchorOffset>10</BottomAnchorOffset>
+		<TopAnchorToTop>false</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Withdraw Selected</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_Page1">
+		<ScreenID>Page1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>10</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>55</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bag 1</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item = "Vault_Page2">
+		<ScreenID>Page2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>58</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>103</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bag 2</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item = "Vault_Page3">
+		<ScreenID>Page3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>106</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>151</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bag 3</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item = "Vault_Page4">
+		<ScreenID>Page4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>154</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>199</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bag 4</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item = "Vault_Page5">
+		<ScreenID>Page5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>202</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>247</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bag 5</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item = "Vault_Page6">
+		<ScreenID>Page6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>250</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>295</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bag 6</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_Page7">
+		<ScreenID>Page7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>298</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>358</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Clicky1</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_Page8">
+		<ScreenID>Page8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>361</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>421</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Clicky2</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_Page9">
+		<ScreenID>Page9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>424</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>509</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Proc Locker</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_BankButton">
+		<ScreenID>BankButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>512</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>562</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Bank</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Button item = "Vault_MerchantButton">
+		<ScreenID>MerchantButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>565</LeftAnchorOffset>
+		<TopAnchorOffset>10</TopAnchorOffset>
+		<RightAnchorOffset>630</RightAnchorOffset>
+		<BottomAnchorOffset>40</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>true</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>true</RightAnchorToLeft>
+		<Text>Merchant</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+
+	<Label item = "Vault_DescriptionLabel">
+		<ScreenID>DescriptionLabel</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>20</LeftAnchorOffset>
+		<TopAnchorOffset>290</TopAnchorOffset>
+		<RightAnchorOffset>20</RightAnchorOffset>
+		<BottomAnchorOffset>55</BottomAnchorOffset>
+		<TopAnchorToTop>true</TopAnchorToTop>
+		<BottomAnchorToTop>false</BottomAnchorToTop>
+		<LeftAnchorToLeft>true</LeftAnchorToLeft>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Font>3</Font>
+		<AlignCenter>true</AlignCenter>
+		<TextColor>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TextColor>
+		<Text></Text>
+	</Label>
+
+	<Screen item = "VaultWnd">
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>300</X>
+			<Y>200</Y>
+		</Location>
+		<Size>
+			<CX>680</CX>
+			<CY>400</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
+		<Style_Titlebar>true</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>true</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>true</Style_Sizable>
+		<Escapable>true</Escapable>
+		<Pieces>Vault_List</Pieces>
+		<Pieces>Vault_DepositButton</Pieces>
+		<Pieces>Vault_WithdrawButton</Pieces>
+		<Pieces>Vault_Page1</Pieces>
+		<Pieces>Vault_Page2</Pieces>
+		<Pieces>Vault_Page3</Pieces>
+		<Pieces>Vault_Page4</Pieces>
+		<Pieces>Vault_Page5</Pieces>
+		<Pieces>Vault_Page6</Pieces>
+		<Pieces>Vault_Page7</Pieces>
+		<Pieces>Vault_Page8</Pieces>
+		<Pieces>Vault_Page9</Pieces>
+		<Pieces>Vault_BankButton</Pieces>
+		<Pieces>Vault_MerchantButton</Pieces>
+		<Pieces>Vault_DescriptionLabel</Pieces>
+	</Screen>
+</XML>
